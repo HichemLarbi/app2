@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "533975037535",
+    "firebase_url": "https://testbeta1-79557.firebaseio.com",
+    "project_id": "testbeta1-79557",
+    "storage_bucket": "testbeta1-79557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533975037535:android:551034e5f8efacfb",
+        "android_client_info": {
+          "package_name": "com.example.hlarbi.firebaseappbeta1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533975037535-t0dc6t7oe1c5cfglsebr1mjhnvt8jcce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfLVdt6wUo5Hi-dJOggPCBltLCLnLXn6M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/smoothfont"
+        android:gravity="center"
+        android:text="Paris"
+        android:textSize="25sp"
+         />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_pollu"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"></android.support.v7.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:layout_width="210dp"
+        android:layout_height="190dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/cloud_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/pollu_cloud" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/smoothfont"
+            android:text="68"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/smoothfont"
+            android:text="AQI"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recycle_pollu"
+
+        android:layout_centerHorizontal="true"
+        android:padding="5dp">
+
+      <com.example.hlarbi.firebaseappbeta1.AccountActivity.ViewClasses.linechart_animation_pollu.ChartView
+            android:id="@+id/charView"
+          android:name="com.example.hlarbi.app3.linechart_animation_pollu.ChartView"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:layout_centerHorizontal="true"
+            android:paddingHorizontal="50dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
